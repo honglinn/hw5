@@ -6,10 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		C6DB9808183DDAF2007BF7E4 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		C6DB980A183DDB9C007BF7E4 /* dynamicArray_hl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dynamicArray_hl.c; sourceTree = "<group>"; };
+		C6DB980C183DDB9C007BF7E4 /* dynamicArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicArray.h; sourceTree = "<group>"; };
+		C6DB980D183DDB9C007BF7E4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C6DB980E183DDB9C007BF7E4 /* main2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main2.c; sourceTree = "<group>"; };
+		C6DB980F183DDB9C007BF7E4 /* toDoList_yz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = toDoList_yz.c; sourceTree = "<group>"; };
+		C6DB9811183DDB9C007BF7E4 /* toDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toDoList.h; sourceTree = "<group>"; };
+		C6DB9812183DDB9C007BF7E4 /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		C6DB9813183DE664007BF7E4 /* dynamicArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dynamicArray.c; sourceTree = "<group>"; };
+		C6DB9814183DE67A007BF7E4 /* toDoList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = toDoList.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		C6DB97FD183DDAEA007BF7E4 = {
 			isa = PBXGroup;
 			children = (
+				C6DB9813183DE664007BF7E4 /* dynamicArray.c */,
+				C6DB9814183DE67A007BF7E4 /* toDoList.c */,
+				C6DB9808183DDAF2007BF7E4 /* makefile */,
+				C6DB980A183DDB9C007BF7E4 /* dynamicArray_hl.c */,
+				C6DB980C183DDB9C007BF7E4 /* dynamicArray.h */,
+				C6DB980D183DDB9C007BF7E4 /* main.c */,
+				C6DB980E183DDB9C007BF7E4 /* main2.c */,
+				C6DB980F183DDB9C007BF7E4 /* toDoList_yz.c */,
+				C6DB9811183DDB9C007BF7E4 /* toDoList.h */,
+				C6DB9812183DDB9C007BF7E4 /* type.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +46,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/LinHong/Desktop/Project/hw5;
 			dependencies = (
 			);
 			name = hw5;
